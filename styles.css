@@ -1,0 +1,158 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  padding: 5% 0 1% 1%;
+  background-color: #00bcd4;
+  color: #fff;
+  text-align: center;
+}
+
+
+section {
+  max-width: 980px;
+  margin: auto;
+}
+
+h1, h2 {
+    font-family: "Gloria Hallelujah", cursive;
+}
+
+h2 {
+    color: #0097a7;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  overflow: scroll;
+  /* grid-column-gap:10px; */
+  /* overflow: scroll; */
+
+  scrollbar-color: orange;
+
+  li {
+    min-width: 20%;
+    padding: 16px;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-decoration: solid;
+
+    background-color: rgba(0, 0, 0, 0.739);
+    background-blend-mode: luminosity;
+
+    h3 {
+      background-color: rgb(57, 56, 62);
+      color: #81d4fa;
+      width: fit-content;
+      margin: 0;
+      padding: 10px;
+      font-family: "Gloria Hallelujah", cursive;
+    }
+
+    p {
+      display: none;
+    }
+
+    &:hover {
+      background-blend-mode: normal;
+      min-width: 80%;
+      z-index: 10;
+
+      p {
+        display: block;
+        background-color: rgb(57, 56, 62);
+        color: white;
+        padding: 10px;
+      }
+    }
+
+    /* :not(:hover) {
+        width: 25ch;
+        background-color: rgba(0, 0, 0, 0.739);
+        background-blend-mode: luminosity;
+      } */
+
+    /* :not(:hover) p {
+        max-height: 20px;
+        text-overflow: ellipsis;
+        background-color: rgb(57, 56, 62);
+      } */
+  }
+}
+
+.arrow {
+    position:sticky;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.786);
+    color:#fff;
+    /* border-radius:40px; */
+    display:none;
+}
+
+/* ul:hover .arrow {
+    display:inline;
+} */
+
+#left-arrow {
+    /* background-image: url('/images/arrow-back.svg'); */
+
+    left: 0;
+    z-index: 200;
+}
+
+#right-arrow {
+    /* background-image: url('/images/arrow-forward.svg'); */
+
+    right: 0;
+    z-index: 200;
+}
+
+
+#whitehaven-beach {
+  background-image: url("/images/whitehaven-beach.jpeg");
+}
+
+#grace-bay {
+  background-image: url("/images/grace-bay.jpeg");
+}
+
+#navagio-beach {
+  background-image: url("/images/navagio-beach.jpeg");
+}
+
+#baia-do-sancho {
+  background-image: url("/images/baia-do-sancho.jpeg");
+}
+
+#anse-source-d-argent {
+    background-image: url("/images/anse-source-d-argent.jpg");
+}
+
+#bora-bora {
+    background-image: url('/images/bora-bora.jpeg');
+}
+
+#playa-paraiso {
+    background-image: url('/images/playa-paraiso.jpeg');
+}
+
+#seven-mile-beach {
+    background-image: url('/images/seven-mile-beach.jpg');
+}
+
+#lanikai-beach {
+    background-image: url('/images/lanikai-beach.jpeg');
+}
+
+#pink-sands-beach {
+    background-image: url('/images/pink-sands-beach.jpeg');
+}
